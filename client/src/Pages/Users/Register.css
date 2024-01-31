@@ -1,0 +1,52 @@
+.authentication{
+    /* height: 100vh; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* image-rendering: auto; */
+}
+.bg_img{
+    background-image: url('../../../public/assets/pexels-jimmy-teoh-2.jpg');
+    width: auto;
+    height: 100vh;
+    background-size: cover;
+}
+.register_form{
+    width: 400px;
+    background-color: rgba(256, 256, 256, 0.4);
+    position: fixed; 
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    margin-bottom: 50px;
+    border-color: red;
+    border: 2px;
+    box-shadow: 0 0 6px grey;
+}
+.regis{
+    align-self: self-start;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+    color: 0C2D57;
+
+}
+.names{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 0px;
+    color: 0C2D57;
+}
+.inputs{
+    background-color: rgba(256, 256, 256, 0.2);
+    width: 80%;
+    border-radius: 10px;
+    margin-left: 40px;
+    overflow: hidden;
+    height: 32px;
+    
+}
+.fle{
+    display: flex;
+}
