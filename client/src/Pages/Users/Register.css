@@ -1,10 +1,4 @@
-.authentication{
-    /* height: 100vh; */
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* image-rendering: auto; */
-}
+
 .bg_img{
     background-image: url('../../../public/assets/pexels-jimmy-teoh-2.jpg');
     width: auto;

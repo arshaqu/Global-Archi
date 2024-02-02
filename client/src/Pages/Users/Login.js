@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Register.css";
-
+import {Link} from 'react-router-dom';
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -154,7 +154,7 @@ function Login() {
               </button>
               </div>
               <div style={{display:'flex' ,marginTop:'-5px'}}>
-                  <p style={{cursor:'pointer' ,color:'#40A2D8',fontFamily:"cursive",marginLeft:'40px'}} className="" >New User..?</p>
+                  <Link to='/register' style={{cursor:'pointer' ,color:'#40A2D8',fontFamily:"cursive",marginLeft:'40px'}} className="" >New User..?</Link>
                   <p style={{cursor:'pointer' ,color:'#40A2D8',fontFamily:"cursive",marginLeft:'120px'}} className="mt-1" >Forget Password..?</p>
 
               </div>
